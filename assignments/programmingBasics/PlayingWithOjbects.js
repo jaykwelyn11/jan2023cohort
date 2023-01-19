@@ -13,8 +13,7 @@ console.log(users[0].name)
 
 // How would you print/log the name and age of each user using a for loop?  Your output should look something like this
 for(let i = 0; i < users.length; i++) {
-    let x = users[i]
-    console.log(x.name, x.age)
+    console.log(users[i].name, users[i].age)
 }
 
 // Michael - 37
