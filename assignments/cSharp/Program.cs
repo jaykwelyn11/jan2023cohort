@@ -1,81 +1,167 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-// THREE BASIC ARRAYS
-// Create an integer array with the values 0 through 9 inside. 
-int[] numArray = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+// 1. Iterate and print values
+
+// Given a List of strings, iterate through the List and print out all the values. Bonus: How many different ways can you find to print out the contents of a List? (There are at least 3! Check Google!)
+
+// static void PrintList(List<string> MyList)
+// {
+//     for (int i = 0; i < MyList.Length; i++)
+//     {
+//         return MyList[i];
+//     }
+// }
+// List<string> TestStringList = new List<string>() { "Harry", "Steve", "Carla", "Jeanne" };
+// PrintList(TestStringList);
 
 
-// Create a string array with the names "Tim", "Martin", "Nikki", and "Sara".
-string[] nameArray = { "Tim", "Martin", "Nikki", "Sara" };
+
+// 2. Print Sum
+
+// Given a List of integers, calculate and print the sum of the values.
+
+// static void SumOfNumbers(List<int> IntList)
+// {
+//     int sum = 0;
+//     foreach (int item in IntList)
+//     {
+//         sum += item;
+//     }
+//     Console.WriteLine($"Sum of values in list = {sum}");
+// }
+
+// List<int> TestIntList = new List<int>() { 2, 7, 12, 9, 3 };
+// // // You should get back 33 in this example
+// SumOfNumbers(TestIntList);
 
 
-// Create a boolean array of length 10. Then fill it with alternating true/false values, starting with true. (Tip: do this using logic! Do not hard-code values in)
-bool[] boolArray = new bool[10];
-for (int i = 0; i < boolArray.Length; i++)
+
+// // 3. Find Max
+
+// // Given a List of integers, find and return the largest value in the List.
+
+// static int FindMax(List<int> IntList)
+// {
+//     int max = 0;
+//     for (int i = 1; i < IntList.Count; i++)
+//     {
+//         if (IntList[i] > max)
+//         {
+//             max = IntList[i];
+//         }
+//     }
+//     Console.WriteLine($"Max of list: {max}");
+//     return max;
+// }
+
+// List<int> TestIntList2 = new List<int>() { -9, 12, 10, 3, 17, 5 };
+// // You should get back 17 in this example
+// FindMax(TestIntList2);
+
+
+
+// // 4. Square the Values
+
+// Given a List of integers, return the List with all the values squared.
+
+// static List<int> SquareValues(List<int> IntList)
+// {
+//     for (int i = 0; i < IntList.Count; i++)
+//     {
+//         IntList[i] *= IntList[i];
+//         Console.WriteLine($"Squared Values: {IntList[i]}");
+//     }
+//     return IntList;
+// }
+// List<int> TestIntList3 = new List<int>() { 1, 2, 3, 4, 5 };
+// // You should get back [1,4,9,16,25], think about how you will show that this worked
+// SquareValues(TestIntList3);
+
+
+
+// // 5. Replace Negative Numbers with 0
+
+// Given an array of integers, return the array with all values below 0 replaced with 0.
+
+// static int[] NonNegatives(int[] IntArray)
+// {
+//     for (int i = 0; i < IntArray.Length; i++)
+//     {
+//         if (IntArray[i] < 0)
+//         {
+//             IntArray[i] = 0;
+//         }
+//         Console.WriteLine($"No negatives: {IntArray[i]}");
+//     }
+//     return IntArray;
+// }
+// int[] TestIntArray = new int[] { -1, 2, 3, -4, 5 };
+// // You should get back [0,2,3,0,5], think about how you will show that this worked
+// NonNegatives(TestIntArray);
+
+
+
+// // 6. Print Dictionary
+
+// // Given a dictionary, print the contents of the said dictionary.
+
+// static void PrintDictionary(Dictionary<string, string> MyDictionary)
+// {
+//     foreach (KeyValuePair<string, string> content in MyDictionary)
+//     {
+//         Console.WriteLine($"{content.Key} - {content.Value}");
+//     }
+// }
+Dictionary<string, string> TestDict = new Dictionary<string, string>();
+TestDict.Add("HeroName", "Iron Man");
+TestDict.Add("RealName", "Tony Stark");
+TestDict.Add("Powers", "Money and intelligence");
+// PrintDictionary(TestDict);
+
+
+
+// // 7. Find Key
+
+// // Given a search term, return true or false whether the given term is a key in a dictionary.
+
+// static bool FindKey(Dictionary<string, string> MyDictionary, string SearchTerm)
+// {
+//     if (MyDictionary.ContainsValue(SearchTerm))
+//     {
+//         Console.WriteLine("true");
+//     }
+//     else
+//     {
+//         Console.WriteLine("false");
+//     }
+//     // return SearchTerm;
+// }
+// // Use the TestDict from the earlier example or make your own
+// // This should print true
+// Console.WriteLine(FindKey(TestDict, "RealName"));
+// // This should print false
+// Console.WriteLine(FindKey(TestDict, "Name"));
+
+
+
+// // 8. Generate a Dictionary
+
+// // Given a List of names and a List of integers, create a dictionary where the key is a name from the List of names and the value is a number from the List of numbers. Assume that the two Lists will be of the same length. Don't forget to print your results to make sure it worked.
+
+// Ex: Given ["Julie", "Harold", "James", "Monica"] and [6,12,7,10], return a dictionary
+// {
+// 	"Julie": 6,
+// 	"Harold": 12,
+// 	"James": 7,
+// 	"Monica": 10
+// } 
+
+static Dictionary<string, int> GenerateDictionary(List<string> Names, List<int> Numbers)
 {
-    if (i % 2 == 0)
-    {
-        boolArray[i] = true;
-    }
-    else
-    {
-        boolArray[i] = false;
-    }
-    Console.WriteLine(boolArray[i]);
+
 }
 
 
-
-// LIST OF FLAVORS
-// Create a string List of ice cream flavors that holds at least 5 different flavors. (Feel free to add more than 5)
-List<string> iceCreamFlavors = new List<string>();
-iceCreamFlavors.Add("Chocolate");
-iceCreamFlavors.Add("Rocky Road");
-iceCreamFlavors.Add("Red Velvet");
-iceCreamFlavors.Add("Coffee");
-iceCreamFlavors.Add("Cookie Dough");
-
-
-// Output the length of the list after you added the flavors. 
-Console.WriteLine($"List length: {iceCreamFlavors.Count}");
-
-
-// Output the third flavor in the list
-Console.WriteLine(iceCreamFlavors[2]);
-
-
-// Now remove the third flavor using its index location.
-iceCreamFlavors.RemoveAt(2);
-
-for (int x = 0; x < iceCreamFlavors.Count; x++)
-{
-    Console.WriteLine(iceCreamFlavors[x]);
-}
-
-
-// Output the length of the list again. It should now be one fewer. 
-Console.WriteLine($"List length: {iceCreamFlavors.Count}");
-
-
-// USER DICTIONARY
-// Create a dictionary that will store string keys and string values
-Dictionary<string, string> favoriteIceCream = new Dictionary<string, string>();
-
-
-// Add key/value pairs to the dictionary where:
-// - Each key is a name from your names array (this can be done by hand or using logic)
-// - Each value is a randomly selected flavor from your flavors list (remember Random from earlier?)
-Random rand = new Random();
-for (int i = 0; i < nameArray.Length; i++)
-{
-    favoriteIceCream.Add(nameArray[i], iceCreamFlavors[rand.Next(0, iceCreamFlavors.Count)]);
-}
-
-
-// Loop through the dictionary and print out each user's name and their associated ice cream flavor. 
-
-foreach (KeyValuePair<string, string> flavor in favoriteIceCream)
-{
-    Console.WriteLine($"{flavor.Key} - {flavor.Value}");
-}
+// We've shown several examples of how to set your tests up properly, it's your turn to set it up!
+// Your test code here
