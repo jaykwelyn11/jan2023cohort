@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-namespace Portfolio1.Controllers;     //be sure to use your own project's namespace!
+namespace Portfolio1.Controllers;
+
 public class HomeController : Controller
 {
 
