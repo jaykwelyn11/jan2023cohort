@@ -5,16 +5,16 @@ class RangedFighter : Enemy
     {
         Distance = 5;
         AllAttacks = new List<Attack>() {
-            new Attack("Arrow", 25),
-            new Attack("Knife", 10)
+            new Attack("Arrow", 20),
+            new Attack("Knife", 15)
         };
     }
 
     public override void PerformAttack(Enemy target, Attack chosenAttack)
     {
-        if (this.Distance < 10)
+        if (Distance < 10)
         {
-            Console.WriteLine($"{this.Name} is too close to attack");
+            Console.WriteLine($"{Name} is too close to attack");
         }
         else
         {
@@ -24,9 +24,9 @@ class RangedFighter : Enemy
 
     public int Dash()
     {
-        this.Distance = 20;
-        Console.WriteLine($"{this.Name} has moved to attack distance");
-        return this.Distance;
+        Distance = 20;
+        Console.WriteLine($"{Name} has moved to attack distance");
+        return Distance;
     }
 
 }

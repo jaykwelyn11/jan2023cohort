@@ -4,9 +4,9 @@ class MeleeFighter : Enemy
     {
         Health = 120;
         AllAttacks = new List<Attack>() {
-            new Attack("Punch", 15),
-            new Attack("Slap", 25),
-            new Attack("Kick", 20)
+            new Attack("Punch", 20),
+            new Attack("Kick", 15),
+            new Attack("Tackle", 25)
         };
     }
 

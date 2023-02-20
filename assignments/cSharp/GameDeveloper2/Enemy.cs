@@ -24,7 +24,7 @@ class Enemy
     public virtual void PerformAttack(Enemy target, Attack chosenAttack)
     {
         target.Health -= chosenAttack.DamageAmount;
-        Console.WriteLine($"{this.Name} attacks {target.Name}, dealing {chosenAttack.DamageAmount} damage and reducing {target.Name}'s health to {target.Health}!!");
+        Console.WriteLine($"{Name} attacks {target.Name}, dealing {chosenAttack.DamageAmount} damage and reducing {target.Name}'s health to {target.Health}!!");
     }
 }
 

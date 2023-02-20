@@ -27,3 +27,5 @@ Gandalf.PerformAttack(Chan, Gandalf.AllAttacks[0]);
 
 Gandalf.Heal(Hawkeye);
 HP.Heal(HP);
+
+Chan.RandomAttack();
