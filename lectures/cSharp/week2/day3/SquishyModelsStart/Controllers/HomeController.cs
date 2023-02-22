@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SquishyModelsStart.Models;
 
@@ -17,10 +17,18 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         string message = "Hello out there!";
+        string[] words = new string[] {
+            "Hello",
+            "What",
+            "Is",
+            "Happening",
+            "Here?",
+        };
         return View("Index", message);
     }
-    [HttpGet("/home/new-message")]
-    public IActionResult Message() {
+    [HttpGet("new-message")]
+    public IActionResult Message()
+    {
         string[] words = new string[] {
             "Hello",
             "What",
@@ -31,7 +39,8 @@ public class HomeController : Controller
         return View(words);
     }
     [HttpGet("/home/squishy")]
-    public IActionResult Squishies() {
+    public IActionResult Squishies()
+    {
         List<Squishy> squishies = new List<Squishy>();
         squishies.Add(new Squishy("Fluffy", 4));
         squishies.Add(new Squishy("Cyclopz", 2));
