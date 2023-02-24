@@ -159,40 +159,30 @@ Console.WriteLine(FindKey(TestDict, "Name"));
 // } 
 
 
-// Dictionary<string, int> dict = new Dictionary<string, int>();
-// dict.Add("Julie", 6);
-// dict.Add("Harold", 12);
-// dict.Add("James", 7);
-// dict.Add("Monica", 10);
+static Dictionary<string, int> GenerateDictionary(List<string> Names, List<int> Numbers)
+{
+    Dictionary<string, int> dictionary = new Dictionary<string, int>();
+    for (int i = 0; i < Names.Count; i++)
+    {
+        dictionary.Add(Names[i], Numbers[i]);
+    }
+    return dictionary;
+}
+// We've shown several examples of how to set your tests up properly, it's your turn to set it up!
+// Your test code here
+List<string> people = new List<string>();
+people.Add("Julie");
+people.Add("Harold");
+people.Add("James");
+people.Add("Monica");
 
-// foreach (var item in dict)
-// {
-//     Console.WriteLine("Key " + item.Key + " Value " + item.Value);
-// }
+List<int> values = new List<int>();
+values.Add(6);
+values.Add(12);
+values.Add(7);
+values.Add(10);
 
-// List<string> Names = new List<string>();
-// Names.Add("Julie");
-// Names.Add("Harold");
-// Names.Add("James");
-// Names.Add("Monica");
-
-// List<int> Numbers = new List<int>();
-// Numbers.Add(6);
-// Numbers.Add(12);
-// Numbers.Add(7);
-// Numbers.Add(10);
-
-// static Dictionary<string, int> GenerateDictionary(List<string> Names, List<int> Numbers)
-// {
-//     Console.WriteLine($"This is the {GenerateDictionary}");
-//     return GenerateDictionary;
-// }
-
-
-
-// // // We've shown several examples of how to set your tests up properly, it's your turn to set it up!
-
-// GenerateDictionary(dict);
-
-
-// CANNOT FIGURE THIS OUT/WORDING CONFUSES ME
+foreach (KeyValuePair<string, int> entry in GenerateDictionary(people, values))
+{
+    Console.WriteLine($"Person: {entry.Key}, Number: {entry.Value}");
+}

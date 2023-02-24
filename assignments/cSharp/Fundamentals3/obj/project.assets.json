@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\Fundamentals3\\Fundamentals3.csproj",
+      "projectUniqueName": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\Fundamentals3\\Fundamentals3.csproj",
       "projectName": "Fundamentals3",
-      "projectPath": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\Fundamentals3\\Fundamentals3.csproj",
+      "projectPath": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\Fundamentals3\\Fundamentals3.csproj",
       "packagesPath": "C:\\Users\\Jacquelyn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\Fundamentals3\\obj\\",
+      "outputPath": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\Fundamentals3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jacquelyn\\AppData\\Roaming\\NuGet\\NuGet.Config"
