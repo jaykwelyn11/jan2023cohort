@@ -2,33 +2,26 @@ using Microsoft.AspNetCore.Mvc;
 namespace DojoSurvey.Controllers;
 public class FormController : Controller
 {
-
-
-    // [HttpPost("postRequest")]
-    // public IActionResult Form(string name, string location, string favLang, string comment)
-    // {
-    //     ViewBag.name = $"{name}";
-    //     ViewBag.location = $"{location}";
-    //     ViewBag.favLang = $"{favLang}";
-    //     ViewBag.comment = $"{comment}";
-
-    //     return RedirectToAction("Form");
-    // }
-
-    [HttpGet("form")]
-    public IActionResult Form()
+    [HttpGet("/result")]
+    public ViewResult Result()
     {
-        return View();
+        return View("result");
     }
 
-    [HttpPost("form")]
-    public IActionResult Form(string name, string location, string favLang, string comment)
+    [HttpPost("/result")]
+    public IActionResult CreateUser(string name, string location, string language, string comment)
     {
         ViewBag.name = $"{name}";
         ViewBag.location = $"{location}";
-        ViewBag.favLang = $"{favLang}";
+        ViewBag.language = $"{language}";
         ViewBag.comment = $"{comment}";
 
-        return View();
+        return View("result");
+    }
+
+    [HttpPost("/")]
+    public RedirectToActionResult Method()
+    {
+        return RedirectToAction("");
     }
 }

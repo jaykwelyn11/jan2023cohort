@@ -1,17 +1,43 @@
-<form action="form" method="post">
-    <label for="name">Your Name:</label>
-    <input type="text" name="TextField" />
-    <label for="location">Dojo Location:</label>
-    <input type="text" name="TextField" />
-    <label for="favLang">Favorite Language:</label>
-    <select name="favLang" id="">
-        <option value="C#">C#</option>
-        <option value="JavaScript">JavaScript</option>
-        <option value="Python">Python</option>
-        <option value="HTML/CSS">HTML/CSS</option>
-    </select>
-    <label for="comment">Comment (optional):</label></p>
-    <textarea id="comment" name="comment" rows="4" cols="50">
-    </textarea>
-    <button type="submit">Submit</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <main>
+        <form action="result" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="location">Dojo Location:</label>
+                <select name="location" id="location">
+                    <option value="San Jose">San Jose</option>
+                    <option value="Dallas">Dallas</option>
+                </select>
+            </div>
+            <div>
+                <label for="language">Dojo Location:</label>
+                <select name="language" id="language">
+                    <option value="C#">C#</option>
+                    <option value="JS">JS</option>
+                    <option value="HTML/CSS">HTML/CSS</option>
+                </select>
+            </div>
+            <div class="comment">
+                <label for="comment">Comment:</label>
+                <textarea name="comment" id="comment" cols="20" rows="5"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

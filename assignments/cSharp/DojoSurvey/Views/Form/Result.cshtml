@@ -1,23 +1,37 @@
-@* <form action="form" method="post">
-    <label for="name">Your Name:</label>
-    <input type="text" name="TextField" />
-    <label for="location">Dojo Location:</label>
-    <input type="text" name="TextField" />
-    <label for="favLang">Favorite Language:</label>
-    <select name="favLang" id="">
-    <option value="C#">C#</option>
-    <option value="JavaScript">JavaScript</option>
-    <option value="Python">Python</option>
-    <option value="HTML/CSS">HTML/CSS</option>
-    </select>
-    <label for="comment">Comment (optional):</label></p>
-    <textarea id="comment" name="comment" rows="4" cols="50">
-    </textarea>
-    <button type="submit">Submit</button>
-    </form> *@
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>Form Results</h1>
-<h2>Name: @ViewBag.name</h2>
-<h2>Dojo Location: @ViewBag.location</h2>
-<h2>Favorite Language: @ViewBag.favLang</h2>
-<h2>Comment: @ViewBag.comment</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h2>Submitted Info</h2>
+        <div>
+            <h3>Name:</h3>
+            <h3>@ViewBag.name</h3>
+        </div>
+        <div>
+            <h3>Dojo Location:</h3>
+            <h3>@ViewBag.location</h3>
+        </div>
+        <div>
+            <h3>Favorite Language:</h3>
+            <h3>@ViewBag.language</h3>
+        </div>
+        <div>
+            <h3>Comment:</h3>
+            <h3>@ViewBag.comment</h3>
+        </div>
+        <form action="/" method="/">
+            <button type="submit">Go Back</button>
+        </form>
+    </main>
+</body>
+
+</html>
