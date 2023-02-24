@@ -16,13 +16,27 @@
   "RootNamespace": "GitOctoCats",
   "Documents": [
     {
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\OctoCat\\octocats.cshtml",
+=======
+      "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/Views/OctoCat/octocat.cshtml",
+      "TargetPath": "Views\\OctoCat\\octocat.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/Views/OctoCat/octocats.cshtml",
+>>>>>>> upstream/main
       "TargetPath": "Views\\OctoCat\\octocats.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\OctoCat\\octocat.cshtml",
       "TargetPath": "Views\\OctoCat\\octocat.cshtml",
+=======
+      "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/Views/Home/index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
+>>>>>>> upstream/main
       "FileKind": "mvc"
     },
     {

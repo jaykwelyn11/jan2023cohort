@@ -16,6 +16,7 @@
   "RootNamespace": "SquishyViews",
   "Documents": [
     {
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\Views\\Squishy\\squishy.cshtml",
       "TargetPath": "Views\\Squishy\\squishy.cshtml",
       "FileKind": "mvc"
@@ -23,6 +24,20 @@
     {
       "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\Views\\Home\\index.cshtml",
       "TargetPath": "Views\\Home\\index.cshtml",
+=======
+      "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/Views/Squishy/oneSquishy.cshtml",
+      "TargetPath": "Views\\Squishy\\oneSquishy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/Views/Home/index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/Views/Squishy/squishy.cshtml",
+      "TargetPath": "Views\\Squishy\\squishy.cshtml",
+>>>>>>> upstream/main
       "FileKind": "mvc"
     },
     {

@@ -8,7 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SquishyViews
 build_property.RootNamespace = SquishyViews
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\Jacquelyn\OneDrive\Documents\CodingDojo2023\jan2023cohort\lectures\cSharp\week2\day1\SquishyViews\
+=======
+build_property.ProjectDir = /Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/
+>>>>>>> upstream/main
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
