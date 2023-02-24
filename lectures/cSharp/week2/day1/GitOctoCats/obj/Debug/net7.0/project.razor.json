@@ -1,5 +1,6 @@
 {
-  "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj",
+  "SerializedFilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/obj/Debug/net7.0/project.razor.json",
+  "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/GitOctoCats.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16,34 +17,20 @@
   "RootNamespace": "GitOctoCats",
   "Documents": [
     {
-<<<<<<< HEAD
-      "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\OctoCat\\octocats.cshtml",
-=======
       "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/Views/OctoCat/octocat.cshtml",
       "TargetPath": "Views\\OctoCat\\octocat.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/Views/OctoCat/octocats.cshtml",
->>>>>>> upstream/main
       "TargetPath": "Views\\OctoCat\\octocats.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
-      "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\OctoCat\\octocat.cshtml",
-      "TargetPath": "Views\\OctoCat\\octocat.cshtml",
-=======
       "FilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/Views/Home/index.cshtml",
-      "TargetPath": "Views\\Home\\index.cshtml",
->>>>>>> upstream/main
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\Home\\index.cshtml",
       "TargetPath": "Views\\Home\\index.cshtml",
       "FileKind": "mvc"
     }
   ],
-  "SerializationFormat": "0.2"
+  "SerializationFormat": "0.3"
 }
