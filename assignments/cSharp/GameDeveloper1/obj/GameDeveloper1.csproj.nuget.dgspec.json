@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj": {}
+    "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj": {
+    "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj",
+        "projectUniqueName": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj",
         "projectName": "GameDeveloper1",
-        "projectPath": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj",
+        "projectPath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\GameDeveloper1\\GameDeveloper1.csproj",
         "packagesPath": "C:\\Users\\Jacquelyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\assignments\\cSharp\\GameDeveloper1\\obj\\",
+        "outputPath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\assignments\\cSharp\\GameDeveloper1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jacquelyn\\AppData\\Roaming\\NuGet\\NuGet.Config"
