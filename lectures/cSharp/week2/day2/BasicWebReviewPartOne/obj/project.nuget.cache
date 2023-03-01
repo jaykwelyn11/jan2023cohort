@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "PCnuVN2ro+8eg0UAXSTrqucw4gt/0YpjhcAqMy7G7V1aA8P4bwO49bQO5nlh2xW2YWhChgvMQa2a8TTdjoVNRA==",
+=======
+  "dgSpecHash": "DPcBp5uAMOthAyCaSwiHB/l+OLd7+DObFkYMRiA1KBuSp/jBjiBzTLWMOnfDBfForT0xoyyeUNROfJgnugjMhw==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\BasicWebReviewPartOne\\BasicWebReviewPartOne.csproj",
   "expectedPackageFiles": [],

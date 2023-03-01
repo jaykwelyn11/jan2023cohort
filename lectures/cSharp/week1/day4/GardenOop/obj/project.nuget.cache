@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "NFIKc2VSnIHMPML6YwBD1maYMpkK6W2KBoCrAsz+/YWB5ZnSmGIaf4J2oFB3V/TXEoJfUSXBUkH18Eedz9hBvQ==",
+=======
+  "dgSpecHash": "2B7OPh7F3u/dTauj0qlNMOzhEQmb+ZS9pvDsSrhwQvhkIoxJNWPOUBz/k+qOqqZdlGizfB2lu9t8CgZBJshCrg==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week1\\day4\\GardenOop\\GardenOop.csproj",
   "expectedPackageFiles": [],

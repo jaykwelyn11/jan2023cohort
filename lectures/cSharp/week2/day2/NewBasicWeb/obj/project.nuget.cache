@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "np6LjX6Gu30ui1OTObSkaMaqtVhHYkxbIKQRu7VEzgciG8ti58iUoV8l41PPvDZ7cKfQm9NeMmkxsBhby4qNQQ==",
+=======
+  "dgSpecHash": "xPvml0Rswfd0zZPntXY5Sh512gSijPpLbYHSXNW0vv+L5D+WWAChyUtXGFQKn2CikXLZNflNG2N6ksC+NGNQTg==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj",
   "expectedPackageFiles": [],

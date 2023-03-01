@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "IJZFOZzBjt4uAggjRA0DMrZKZy+lJ2euu2SJoMukEWNmikUiSlUlHGjg41Cdn/957I8VvxAPin0WjotvOypdqw==",
+=======
+  "dgSpecHash": "DfZwhGyQ4TUeUOueOPuQjDMHQaD3IfwV/R68zrIbQfoBb3dsOdJgis+4fwkBrq4CCAD73hKc9bJQ1wPfAJ97CA==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week1\\day5\\Example\\Example.csproj",
   "expectedPackageFiles": [],

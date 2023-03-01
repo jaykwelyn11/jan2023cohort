@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "pW5NdYiRAb6a8XYTzHxDLUWU4sSZwlG2blPn1gpKXYBMEDbyksxaZQxysTNqmAo/5UAMO9V063K8gpoFMv08IA==",
+=======
+  "dgSpecHash": "UC6Ubql3r15Ib8qMVln9BrbRylyDtzXIN6deD6J2m/3MsILdv8uGznmYBByyaeSgBheYrdyMWj5kpMB3PJdmHA==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week1\\day5\\Cards\\Cards.csproj",
   "expectedPackageFiles": [],

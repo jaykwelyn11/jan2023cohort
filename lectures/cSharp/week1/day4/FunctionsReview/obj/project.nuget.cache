@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "e7g1KAcjIi69nRmEbU2vwLw4/Bk44cuW8OZHi8EDuYUkRk5pf/sEiispb5hZTp9/7FwdnghlT96mOROtD6Qdvw==",
+=======
+  "dgSpecHash": "5cArrc1jR9E1C2MiYnjRBi3OvyUqUVlXWwPpjiAU2OoDyntK/vNUIofRVQGvkomgW3tagPYyED4byCQKpRxzxg==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week1\\day4\\FunctionsReview\\FunctionsReview.csproj",
   "expectedPackageFiles": [],

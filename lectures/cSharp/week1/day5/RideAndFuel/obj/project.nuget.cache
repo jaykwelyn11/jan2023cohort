@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1/zmV1sZ+MljRxJZsBSctTYDDoAmm2TPvYEpu1HfUpVuyWdekro0mDUSh6/PovrewfyDDq4GQ8EtqzMByyBkIQ==",
+=======
+  "dgSpecHash": "XyfwrDJOXU/sxClxcRIkZYrhNSIBJMzl2i0cnApbWBYg9X7JzpRR0DkrZUVPwhPBKgEs8lAhiSar+rBUK2Uefw==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week1\\day5\\RideAndFuel\\RideAndFuel.csproj",
   "expectedPackageFiles": [],

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "uHUE8YhsbPoAw9cfJc/TMWuFCCMZaUl+SVkdHJJDjuNAE6N6icF0stBsxLjYOFvgnXACWfMRYOiJ477xMbqUxA==",
+=======
+  "dgSpecHash": "DOTayOUxT/AxpWrJuTIdLxeJ+zRChlfgOD9x9mGJ33TpxGN0drU8ikBmRslh+ZmVTrwhBAAxVYjASe6d9/F3pA==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\FirstWebApp\\FirstWebApp.csproj",
   "expectedPackageFiles": [],

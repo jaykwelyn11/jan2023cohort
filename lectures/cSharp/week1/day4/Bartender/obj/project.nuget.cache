@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "roigcYBoBvQOJWddBVnDy4UlNNCFBjZOEl5sxptbbb2VzVUfTXwIYHIDX9fkUJZ/EidmEipwjoBjieQ2A0iKjg==",
+=======
+  "dgSpecHash": "LhsaEy4Pyh1lLRkoJGwWhE4v2pvsoFQjb/Lxv0SSUvceM3wxfxjyaZutilDbw5PmcFRxaETUD410DB894Mh4jQ==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\lectures\\cSharp\\week1\\day4\\Bartender\\Bartender.csproj",
   "expectedPackageFiles": [],

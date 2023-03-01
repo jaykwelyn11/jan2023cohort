@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "g+jPctPf5OnmY9sxjgipt/sSxRhJKwlLrJlYdc7cEjeXf/PGS1qk1cHacG+Kvxsa8P0hGlfLGrbkl3tE89X90g==",
+=======
+  "dgSpecHash": "phiP6nWw10tyz0UGfXCk1Ag/INbwAi7p09koyxc1Z8zZSkgW05psaTpQfnDyBf9yIqS0PEICf1NxJDraGYAZsg==",
+>>>>>>> upstream/main
   "success": true,
   "projectFilePath": "c:\\Users\\Jacquelyn\\OneDrive\\Documents\\CodingDojo2023\\jan2023cohort\\classProject\\games\\MadLibConsoleGame\\MadLibConsoleGame.csproj",
   "expectedPackageFiles": [],
