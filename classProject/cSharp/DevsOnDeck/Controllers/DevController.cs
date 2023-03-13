@@ -35,6 +35,11 @@ public class DevController: Controller
             return HttpContext.Session.GetString("type");
         }
     }
+    private string? role {
+        get {
+            return HttpContext.Session.GetString("role");
+        }
+    }
     
 
     [SessionCheck]
@@ -62,5 +67,10 @@ public class DevController: Controller
         return View("DevDash", "Dev");
     }
 
-    
+    // *** profile
+    // *** update profile
+    // *** add skills page
+    // *** add skills function
+    // *** view jobs - all
+    // *** view jobs - skill based
 }

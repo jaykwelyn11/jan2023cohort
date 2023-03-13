@@ -246,6 +246,32 @@ namespace DevsOnDeck.Migrations
                     b.ToTable("OrgProfiles");
                 });
 
+            modelBuilder.Entity("DevsOnDeck.Models.RandKey", b =>
+                {
+                    b.Property<int>("RandKeyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("RKey")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RandKeyId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RandKeys");
+                });
+
             modelBuilder.Entity("DevsOnDeck.Models.Skill", b =>
                 {
                     b.Property<int>("SkillId")
@@ -466,6 +492,17 @@ namespace DevsOnDeck.Migrations
                     b.Navigation("org");
                 });
 
+            modelBuilder.Entity("DevsOnDeck.Models.RandKey", b =>
+                {
+                    b.HasOne("DevsOnDeck.Models.User", "adminUser")
+                        .WithMany("theKeys")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("adminUser");
+                });
+
             modelBuilder.Entity("DevsOnDeck.Models.UserProfile", b =>
                 {
                     b.HasOne("DevsOnDeck.Models.User", "owner")
@@ -510,6 +547,8 @@ namespace DevsOnDeck.Migrations
                     b.Navigation("memberOf");
 
                     b.Navigation("myDev");
+
+                    b.Navigation("theKeys");
 
                     b.Navigation("theProfile");
                 });
